@@ -1,0 +1,30 @@
+.cast-member-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.cast-member-card img {
+  border-radius: 72px;
+  display: block;
+  height: 72px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: top;
+  outline: 1px solid rgba(0, 0, 0, 0.15);
+  outline-offset: -1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.05);
+}
+
+.cast-member-card__info__name {
+  font-weight: 500;
+}
+
+.cast-member-card__info__character {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}

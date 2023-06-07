@@ -1,0 +1,28 @@
+.search-page {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  overflow: auto;
+  height: 100vh;
+}
+
+.search-page__title {
+  margin-top: 2rem;
+}
+
+.search-page__input {
+  width: 75%;
+  max-width: 1280px;
+  margin: 2rem auto 0 auto;
+  padding: 1rem;
+}
+
+.search-page__results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(236px, 1fr));
+  grid-gap: 1rem;
+  padding: 1rem;
+  max-width: 1280px;
+  width: 100%;
+}
